@@ -8,3 +8,11 @@ updates:
     open-pull-requests-limit: 5
     reviewers: ["khluu"]
     versioning-strategy: "auto"
+  - package-ecosystem: "pip-compile"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels: ["dependencies"]
+    open-pull-requests-limit: 5
+    reviewers: ["khluu"]
+    versioning-strategy: "auto"
