@@ -9,4 +9,4 @@ updates:
     reviewers: ["khluu"]
     versioning-strategy: "auto"
     allow:
-      dependency-type: "all"
+      - dependency-type: "all"
