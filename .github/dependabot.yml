@@ -10,3 +10,7 @@ updates:
     versioning-strategy: "auto"
     allow:
       - dependency-type: "all"
+    groups:
+      a:
+        applies-to: version-updates
+        update-types: "minor"
